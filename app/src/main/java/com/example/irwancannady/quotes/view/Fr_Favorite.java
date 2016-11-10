@@ -1,4 +1,5 @@
 package com.example.irwancannady.quotes.view;
+// Created by Arif Ariyan (me@arifariyan.com) on 11/10/16.
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,18 +10,12 @@ import android.view.ViewGroup;
 
 import com.example.irwancannady.quotes.R;
 
-/**
- * Created by adhitiahidayat on 11/1/16.
- */
-
-public class Fr_Quotes extends Fragment {
-
+public class Fr_Favorite extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
-        View view = inflater.inflate(R.layout.frquotes_layout, container, false);
+        View view = inflater.inflate(R.layout.frfavorite_layout, container, false);
 
         return view;
     }

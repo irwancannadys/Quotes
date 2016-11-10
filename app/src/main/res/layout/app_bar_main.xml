@@ -38,5 +38,18 @@
 
     <include layout="@layout/content_main" />
 
+    <FrameLayout
+        android:layout_marginTop="56dp"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.google.android.gms.maps.MapView-->
+        <!--android:id="@+id/map"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    </FrameLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
